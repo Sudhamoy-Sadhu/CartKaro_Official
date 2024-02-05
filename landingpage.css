@@ -42,9 +42,17 @@ nav{
     /* background: yellow; */
     width: 90vw;
 }
+.menu2{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    /* background: yellow; */
+    width: 90vw;
+}
 
 li{
     list-style: none;
+    margin-right: 5%;
 }
 
 a{
@@ -226,4 +234,14 @@ button{
  }
 h2{
     font-size: 2rem;
+}
+
+footer{
+    display: flex;
+}
+.main_foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
 }
