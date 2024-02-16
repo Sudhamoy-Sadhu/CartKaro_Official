@@ -207,11 +207,11 @@ button{
  .head{
     display: flex;
     flex-direction: column;
-    height: 40vh;
+    width: 82vw;
     /* background: red; */
     height: 10vh;
     justify-content: center;
-    padding-left: 7vw;
+    /* padding-left: 7vw; */
  }
  .body{
     display: flex;
