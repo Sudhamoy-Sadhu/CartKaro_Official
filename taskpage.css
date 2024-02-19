@@ -1,57 +1,54 @@
-.maincontainer{
+body {
+    height: 98vh;
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.maincontainer {
     margin: 15px;
     padding: 15px;
     flex-direction: row;
-    width: 885px;
-    height: 179px;
-    top: 86px;
-    left: 214px;
-    position:absolute;
-    }
-    
-    .body_text{
-    position: absolute;
-    font-style: normal;
-    display: flex;
+    width: 95vw;
+    /* background: red; */
+}
+
+.body_text {
+    margin: 15px;
+    padding: 15px;
     align-items: center;
-    flex: 5px;
-    width: 1539px;
-    height: 545px;
-    top: 200px;
-    left: 990px;
+    display: flex;
+    justify-content: center;
     font-family: Noto Looped Thai UI;
-    font-size: 60px;
+    font-size: 2rem;
     font-weight: 800;
-    line-height: 70px;
-    letter-spacing: 0em;
     text-align: left;
-    }
-    
-    
-    .img-class{
-    position: absolute;
-    width: 606px;
-    height: 505px;
-    top: 357px;
-    left: 214px;
-    background: url("a4c3d6d1bf3f54b1b0cfd384ae729513.png");
-    }
-    
-    
-    .blog-footer{
-      
-        position: absolute;
-        width: 5000px;
-        height: 710px;
-        left: 960px;
-        top: 600px;
-        font-family: 'Oxygen';
-        font-style: normal;
-        font-weight: 5000;
-        font-size: 25px;
-        line-height: 500px; 
-        
-    }
-    
-    
+    justify-content: space-around;
+    /* background: yellow; */
+    width: 98vw;
+}
+
+.another{
+    width: 50vw;
+    float: right;
+}
+img {
+    width: 40vw;
+    height: 60vh;
+    float: left;
+}
+a{
+    font-size: 1.5rem;
+}
+
+.blog-footer {
+
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 5000;
+    font-size: 2rem;
+    line-height: 500px;
+
+}
