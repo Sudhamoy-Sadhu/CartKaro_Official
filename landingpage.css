@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 
 :root{
     --background1: #FFF1F1;
@@ -188,6 +191,15 @@ h1{
 img {
     width: 80%;
     height: 60vh;
+}
+.signup a{
+    display: flex;
+    background-color: #C63C3C;
+    color: #FDFDFD;
+    font-size: 1rem;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
 }
 button{
     display: flex;
